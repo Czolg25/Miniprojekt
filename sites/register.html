@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Mini Project</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="nav-item">main</a>
+        <a href="/register" class="nav-item">register</a>
+        <a href="/login" class="nav-item">login</a>
+        <a href="/admin" class="nav-item">admin</a>
+    </nav>
+
+    <div class="background">
+        Register page
+    </div>
+
+    <form method="POST">
+        <label>
+            Login: 
+            <input required type="text" name="login">
+        </label>
+        <label>
+            Password: 
+            <input type="password" name="password">
+        </label>
+        <label>
+            Age: 
+            <select name="age">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+        </label>
+        <label class="thin">
+            Student?: 
+            <input type="checkbox" name="student">
+        </label>
+        <label class="thin">
+            Gender: 
+            <label>
+                <input type="radio" name="gender" checked value="m">
+                M
+            </label>
+            <label>
+                <input type="radio" name="gender" value="w">
+                W
+            </label>
+        </label>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

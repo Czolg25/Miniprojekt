@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.background {
+    font-size: 6em;
+    white-space: nowrap;
+    font-weight: bolder;
+    color: #ddd;
+}
+
+.navbar {
+    background: #1d1cb6;
+    display: flex;
+    width: 100%;
+    height: 2.8em;
+    align-items: center;
+    padding: 0 40px;
+}
+
+a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.secondary a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.denied {
+    background: #b60000;
+}
+
+.secondary {
+    background: rgb(250, 252, 45);
+}
+
+
+form {
+    width: 300px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+label.thin {
+    justify-content: left;
+}
+
+select, input {
+    width: 200px;
+    padding: 5px 10px;
+    border: 2px inset lightgray;
+    border-radius: 5px;
+}
+
+input[type=checkbox], input[type=radio] {
+    width: auto;
+    margin-left: 3em;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+input[type=submit] {
+    width: 50%;
+    margin: 1em auto;
+    background: #1d1db9;
+    color: white;
+    font-size: 1.5em;
+    border: 2px outset #1d1db9;
+}
+
+
+.dark {
+    background: #111;
+    color: white;
+}
+
+.result {
+    color: whitesmoke;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 1.2em;
+}
+
+.result td {
+    border: 2px solid rgb(190, 203, 152);
+    padding: 20px;
+}
